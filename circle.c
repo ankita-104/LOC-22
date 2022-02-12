@@ -9,8 +9,10 @@ int main()
     float radius, diameter, circumference, area;
 
     printf("Enter the radius of the circle:\n");
-    scanf("%f\n\n", &radius);
+    scanf("%f", &radius);
 
+    printf("\n\n");
+    
     diameter=(radius*2);
     printf("Diameter of the circle is: %f\n", diameter);
 
