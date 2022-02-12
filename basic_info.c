@@ -28,7 +28,7 @@ printf("THE ABOVE MENTIONED DETAILS ARE:\n\n");
 
 printf("The name of the student is %s\n", name);
 printf("Registration number of the student is %ld\n", reg);
-printf("branch: %S\n", branch);
+printf("branch: %s\n", branch);
 printf("Hobbies:%s\n", hobbies);
 
 
