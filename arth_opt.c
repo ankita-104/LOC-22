@@ -37,7 +37,7 @@ printf("choose a number to perform the operation\n\n");
     {
         printf("The sum of %f and %f is:", num1, num2);
         num = num1 + num2;
-        printf("num=%f");
+        printf("num=%f", num);
         break;
     }
 
@@ -59,7 +59,7 @@ printf("choose a number to perform the operation\n\n");
     {
         printf("The dividion result of %f and %f is:", num1, num2);
         num = num1 / num2;
-        printf("num=%f");
+        printf("num=%f", num);
         break;
     }
    
