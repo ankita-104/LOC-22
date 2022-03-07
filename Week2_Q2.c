@@ -7,7 +7,7 @@
 int main()
 {
  
-int a[20], rem,i,j,k, int1[11],int2,int3, int4, int5, int6, int7, int8, int9, int10,sum=0, sum2 ;
+int a[20], rem,i,j,k, int1[11], int10,sum=0, sum2 ;
 
 for(i=0;i<=10;i++)
 {
@@ -25,7 +25,7 @@ else{
 
     printf("The sum of odd numbers is:\n");
 
-    sum+=int1[i];
+    sum1+=int1[i];
 printf("%d",&sum);
 
 }
