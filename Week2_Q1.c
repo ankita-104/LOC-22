@@ -5,7 +5,7 @@ int main()
 char a[200],b[100],c[200],d[400];
 int i,j=0,k;
 
-printf("Enter your 1st name:\n");
+printf("Enter 1st name:\n");
 scanf("%s", a);
 
 
@@ -17,17 +17,17 @@ printf("The name is:\n");
 
 printf("%s\n", strcat(a ,b));
 
-k=strlen(strcat(a,c));
+k=strlen(strcat(a,b));
 
 
 for(i=k-1; i>= 0; i--)
 {
-d[j++] = strcat(a,c)[i];
+d[j++] = strcat(a,b)[i];
 
 }
 
 
-printf("The reversed number is=%s\n",d);
+printf("The reversed name is=%s\n",d);
 
 return 0;
 }
