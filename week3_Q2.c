@@ -1,25 +1,25 @@
 // WAP to check a number to check a number is prime or not using recursion.
 
 #include<stdio.h>
-//#include<math.h>
-int CheckPrime(int i,int num)
+
+int Prime(int i,int n)
 {
-    if(num==i)
+    if(n==i)
         return 0;
     else
-        if(num%i==0)
+        if(n%i==0)
             return 1;
     else{
-        return CheckPrime(i+1,num);
+        return Prime(i+1,n);
     }
 }
 int main()
 {
-    int num;
-    printf("Enter your Number:");
-    scanf("%d",&num);
+    int n ;
+    printf("Enter the Number:");
+    scanf("%d",&n );
 
-    if(CheckPrime(2,num)==0)
+    if(Prime(2,n)==0)
         printf("It is a Prime Number.");
     else
         printf("It is not a Prime Number.");
