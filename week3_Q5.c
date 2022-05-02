@@ -1,81 +1,26 @@
 // WAP to get the largest element of an array using the function.
 
-/*#include <stdio.h>
 
-
-int findLarge(int a[],int a_size)
-
-{
-
-    int i,Large_num;
-
-    Large_num=a[0];
-
-    for(i=1;i<a_size;i++)
-
-    {
-
-        if(Large_num<a[i])
-
-            Large_num=a[i];
-
-    }
-
-    return Large_num;
-
-
-}
-
-
-int main()
-
-{
-
-    int a[100],a_size,L_Num,i;
-
-    printf(“ Enter size of array: ");
-
-    scanf(“ %d ”, &a_size);
-
-    printf(“ Enter the elements into array:\n”);
-
-    for(i=0;i<a_size;i++)
-
-        scanf(“%d”,&a[i]);
-
-    L_Num=findLarge(a,a_size);
-
-    printf(“Largest number is: %d\n”,L_Num);
-
-    return 0;
-
-}*/
-
-
-
-
-
-// C program to find maximum in arr[] of size n
 #include <stdio.h>
 
-int largest(int arr[], int n)
+int largest(int a[], int n)
 {
 	int i;
 	
 
-	int max = arr[0];
+	int max = a[0];
 
 	
 	for (i = 1; i < n; i++)
-		if (arr[i] > max)
-			max = arr[i];
+		if (a[i] > max)
+			max = a[i];
 
 	return max;
 }
 
 int main()
 {
-	int arr[],i,n;
+	int a[30],i,n;
     printf("enter the size of array:");
     scanf("%d", &n);
 
@@ -83,18 +28,17 @@ int main()
     printf("enter the array elements:\n");
     for(i=0; i<n; i++)
     {
-        scanf("%d", &arr[i]);
-
+        scanf("%d", &a[i]);
     
     }
     printf("the array elements are:\n");
 
     for(i=0; i<n; i++)
     {
-        printf(" %d", arr[i]);
+        printf(" %d", a[i]);
 
     }
 
-	printf("\nThe Largest element in given array is %d", largest(arr, n));
+	printf("\nThe Largest element in given array is %d", largest(a, n));
 	return 0;
 }
