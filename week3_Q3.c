@@ -6,11 +6,11 @@ int even(int n)
 {
     if (n % 2 == 0)
     {
-        printf("it is a even number.");
+        printf("it is even number.");
     }
     else
     {
-        printf("it is a odd number.");
+        printf("it is  odd number.");
     }
 
     return 0;
