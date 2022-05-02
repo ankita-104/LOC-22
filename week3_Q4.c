@@ -9,9 +9,8 @@ void swap(int *p, int *q)
     z = *p;
     *p = *q;
     *q = z;
-    // printf("%d %d", p, q);
-    // return 0;
-}
+    
+  }
 
 int main()
 {
